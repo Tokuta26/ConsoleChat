@@ -88,7 +88,10 @@ public:
 
         cout << "Enter login: ";
         cin >> login;
-
+        if (login == "ALL") {
+            cout << "This login is reserved!\n";
+            return;
+        }
         if (findUser(login) != -1) {
             cout << "This login already exists!\n";
             return;
