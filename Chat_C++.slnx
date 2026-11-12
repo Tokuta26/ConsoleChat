@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Chat_C++/Chat_C++.vcxproj" Id="1bb96d99-c09b-4c4b-ada3-423246cd0ba8" />
+</Solution>
